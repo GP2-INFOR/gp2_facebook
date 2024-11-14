@@ -69,6 +69,7 @@ h2{
 
 
 .ext{
+    margin-bottom: 20px;
     display: flex;
     justify-content: space-between;
 }
@@ -87,7 +88,7 @@ h2{
 }
 
 .int1{
-    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .int2{
@@ -118,5 +119,13 @@ p{
     header a{
         margin-left: 10px;
         font-size: 15px;
+    }
+
+    .ext{
+        justify-content: space-between;
+        display: block;
+    }
+    div{
+        text-align: center;
     }
 }
