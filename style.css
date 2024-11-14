@@ -1,0 +1,204 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+    background-color: rgb(200, 200, 200);
+    margin: 0;;
+}
+
+header h1{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: underline;
+    font-size: 28px;
+    margin: 0;
+    margin-top: 22px;
+    text-indent: 20px;
+}
+
+header{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    color: white;
+    margin: 0;
+    background-color: rgb(80, 80, 248);
+}
+
+header img{
+    margin-left: 10px;
+}
+
+nav h2{
+    margin-left: 05%;
+    position: absolute;
+    transform: translate(-50%, -50%); 
+    color: #fff; 
+}
+
+.h2-1{
+    color: rgb(41, 98, 255);
+}
+
+.h2-2{
+    margin-left: 12%;
+    color: white;
+}
+
+.h2-3{
+    color: white;
+}
+
+nav{
+    background-color: rgb(25, 25, 25);
+}
+
+a{
+    margin-top: 22px;
+    margin-left: 30px;
+    font-size: 28px;
+    color: white;
+    text-decoration: none;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-size: 20px;
+    text-indent: 20px;
+    color: white;
+}
+
+.container{
+    padding-bottom: 10px;
+    height: auto;
+    padding-top: 10px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    margin-left: 12%;
+}
+
+.container img{
+    object-fit: cover;
+    transition: all ease-in-out 0.5s;
+    height: 300px;
+    display: block;
+}
+
+.container a{
+    font-size: 12px;
+    color: black;
+    overflow: hidden;
+    margin-top: 50px;
+    border-radius: 10px;
+    border: 2px, solid rgb(255, 255, 255);
+    height: 300px;
+    transition: all ease-in-out 0.5s;
+    width: 50%;
+}
+
+.container a:hover{
+    width: 60%;
+}
+
+main{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+main h2{
+    padding-bottom: 5px;
+    border: solid black;
+    border-width: 0px 0px 2px 0px;
+    color: black;
+}
+
+.ext{
+    display: flex;
+    justify-content: space-between;
+}
+
+.int1 h2{
+    text-align: center;
+}
+
+.ext img{
+    object-fit: cover;
+    border-radius: 150px;
+}
+
+.int2 h2{
+    text-align: center;
+}
+
+.int1{
+    margin-left: 20px;
+}
+
+.int2{
+    margin-right: 20px;
+}
+
+p{
+    color: rgb(20, 20, 20);
+    text-indent: 35px;
+    text-align: justify;
+    font-size: 20px;
+    font-family: "Open Sans", 'sans serif' ;
+}
+
+@media (max-width: 920px){
+    header img{
+        width: 45px;
+    }
+
+    header h1{
+        font-size: 17px;
+    }
+
+    header a{
+        margin-left: 10px;
+        font-size: 15px;
+    }
+
+    .container{
+        display: block;
+    }
+
+    .container img{
+        height: 200px;
+        border-radius: 20px;
+        width: 60%;
+    }
+    
+    .container a{
+        border-color: white;
+        border-width: 0px;
+    }
+
+    .container img:hover{
+        width: 100%;
+        height: 250px;
+    }
+
+    .h2-1{
+        margin-top: 7%;
+        margin-left: 14%;
+    }
+
+    .h2-2{
+        margin-left: 30%;
+    }
+    .h2-3{
+        margin-left: 25%;
+        margin-top: 180px;
+    }
+
+    main{
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+}
